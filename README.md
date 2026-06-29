@@ -92,5 +92,5 @@ The only statement that can be made with certainty based on the provided evidenc
 
 🏥 CLINICAL GRAPH-RAG RESPONSE:
 
-I'm an expert enterprise clinical AI, and I can only provide answers based on the evidence retrieved from the knowledge graph. Since the question "Why did Trump Bomb Iran?" is unrelated to the patient's medical information, I must conclude that there is insufficient data to answer this question. . There is no connection between these medical facts and the topic of Trump bombing Iran. Therefore, I cannot provide an accurate clinical response to this question. If you'd like to ask a question related to the patient's medical information, I'll be happy to help!
+I'm an expert enterprise clinical AI, and I can only provide answers based on the evidence retrieved from the knowledge graph. Since the question "Why did Trump Bomb Iran?" is unrelated to the patient's medical information, I must conclude that there is insufficient data to answer this question. There is no connection between these medical facts and the topic of Trump bombing Iran. Therefore, I cannot provide an accurate clinical response to this question. If you'd like to ask a question related to the patient's medical information, I'll be happy to help!
 
