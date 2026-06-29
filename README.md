@@ -96,12 +96,6 @@ The only statement that can be made with certainty based on the provided evidenc
 🕸️ Agent 3: Traversing Neo4j starting from 'PATIENT'...
 ✍️ Agent 4: Synthesizing clinical response...
 
-==================================================
 🏥 CLINICAL GRAPH-RAG RESPONSE:
 
 I'm happy to help! However, I must inform you that the knowledge graph evidence provided does not contain any information about the capital of France. Therefore, I must conclude that there is insufficient data to provide an accurate response.
-
-==================================================
-
-
-```
