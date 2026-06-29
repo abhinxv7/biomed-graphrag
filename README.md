@@ -98,10 +98,10 @@ The only statement that can be made with certainty based on the provided evidenc
 
 ==================================================
 🏥 CLINICAL GRAPH-RAG RESPONSE:
-==================================================
+
 I'm happy to help! However, I must inform you that the knowledge graph evidence provided does not contain any information about the capital of France. Therefore, I must conclude that there is insufficient data to provide an accurate response.
 
-The evidence only relates to a patient's medical condition, medication, and procedure, which does not include any geographical or political information.
 ==================================================
+
 
 ```
