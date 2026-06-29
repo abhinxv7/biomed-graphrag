@@ -1,0 +1,17 @@
+# Python stuff
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Data and Logs
+data/input/*
+!data/input/.gitkeep
+logs/
+
+# Database files (DO NOT PUSH THESE)
+neo4j/
+qdrant_data/
+
+# Environment Variables
+.env
