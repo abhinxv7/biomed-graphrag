@@ -63,3 +63,45 @@ python src/retriever.py
 ## 🧠 Why GraphRAG?
 
 Standard RAG systems often suffer from "context loss" when searching through complex medical data. By building a **Knowledge Graph**, Biomed-GraphRAG allows for multi-hop reasoning. If a patient’s condition is noted in a text file and their side-effects are spoken in an audio consultation, this system can traverse the graph to connect them, providing a synthesized, accurate clinical response.
+
+```
+
+🔍 Query Received: 'Why was the Chest X-Ray ordered, and did the imaging results confirm those specific suspicions?'
+🧠 Agent 1: Extracting clinical intent...
+🎯 Intent Identified: Chest X-Ray
+🧲 Agent 2: Semantic Vector Search in Qdrant...
+✅ Qdrant Matched Intent 'Chest X-Ray' -> Exact Graph Node: 'X-RAY'
+🕸️ Agent 3: Traversing Neo4j starting from 'X-RAY'...
+✍️ Agent 4: Synthesizing clinical response...
+
+==================================================
+🏥 CLINICAL GRAPH-RAG RESPONSE:
+==================================================
+Based solely on the provided knowledge graph evidence, I can only retrieve information about the existence of a Chest X-Ray and its relationship to the HUMAN.
+
+Unfortunately, the evidence does not provide any information about why the Chest X-Ray was ordered or whether the imaging results confirmed specific suspicions. Therefore, I must conclude that there is insufficient data to answer these questions accurately.
+
+The only statement that can be made with certainty based on the provided evidence is:
+
+"The HUMAN has a Chest X-Ray."
+==================================================
+
+```
+
+🔍 Query Received: 'What is the capital of France?'
+🧠 Agent 1: Extracting clinical intent...
+🎯 Intent Identified: 
+🧲 Agent 2: Semantic Vector Search in Qdrant...
+✅ Qdrant Matched Intent '' -> Exact Graph Node: 'PATIENT'
+🕸️ Agent 3: Traversing Neo4j starting from 'PATIENT'...
+✍️ Agent 4: Synthesizing clinical response...
+
+==================================================
+🏥 CLINICAL GRAPH-RAG RESPONSE:
+==================================================
+I'm happy to help! However, I must inform you that the knowledge graph evidence provided does not contain any information about the capital of France. Therefore, I must conclude that there is insufficient data to provide an accurate response.
+
+The evidence only relates to a patient's medical condition, medication, and procedure, which does not include any geographical or political information.
+==================================================
+
+```
